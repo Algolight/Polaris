@@ -1,5 +1,5 @@
 {
-  "FooI18n": {
-    "greeting": "Bonjour"
+  "DatePickerTextField": {
+    "placeholderDateValue": "JJ-MM-AAAA"
   }
 }
