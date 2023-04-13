@@ -55,7 +55,7 @@
     "storybook:build": "build-storybook -o build-internal/storybook/static"
   },
   "peerDependencies": {
-    "@shopify/polaris": "^10.42.1",
+    "@shopify/polaris": "10.42.1",
     "@shopify/polaris-icons": "^6.12.0",
     "@shopify/polaris-tokens": "^6.8.1",
     "react": "^18.2.0",
@@ -66,7 +66,7 @@
     "@shopify/browserslist-config": "^3.0.0",
     "@shopify/jest-dom-mocks": "^3.0.5",
     "@shopify/postcss-plugin": "^5.0.1",
-    "@shopify/polaris": "^10.42.1",
+    "@shopify/polaris": "10.42.1",
     "@shopify/react-testing": "^4.1.0",
     "@shopify/storybook-a11y-test": "1.0.1",
     "@storybook/addon-a11y": "^6.5.12",

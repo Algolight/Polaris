@@ -1,3 +1,4 @@
+/* eslint-disable @shopify/jsx-no-hardcoded-content */
 import React, {useState, useRef, useEffect, useMemo, useId} from 'react';
 import type {FocusEvent} from 'react';
 import type {PopoverProps, Range} from '@shopify/polaris';
@@ -70,6 +71,7 @@ export function DatePickerTextField({
   datePlaceholder,
 }: Props) {
   const [i18n] = useI18n();
+  console.log(i18n);
   const [visible, setVisible] = useState(false);
   const datePickerRef = useRef<HTMLDivElement>(null);
   const datePickerTextId = useId();
@@ -237,6 +239,7 @@ export function DatePickerTextField({
       ariaHaspopup="grid"
       activator={activator}
     >
+      <span>{i18n.translate('FooI18n.greeting')} i18n!</span>
       {!hideDatePicker && (
         <Box ref={datePickerRef} id={datePickerTextId} padding="3">
           <DatePicker
